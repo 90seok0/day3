@@ -25,11 +25,6 @@ $('.candle3').draggable();
 $('.popup').draggable();
 
 setTimeout(function(){
-	$('.popup').show();
-},40000);
-
-
-setTimeout(function(){
 	$('.smoke').fadeOut();
 	$('.smoke2').fadeOut();
 	$('.smoke3').fadeOut();
