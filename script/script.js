@@ -22,7 +22,7 @@ $('.receipt').draggable();
 $('.candle').draggable();
 $('.candle2').draggable();
 $('.candle3').draggable();
-$('.popup').draggable();
+
 
 setTimeout(function(){
 	$('.smoke').fadeOut();
@@ -34,11 +34,12 @@ $('.iphone').click(function(){
 	alert('확인할 수 없습니다.');
 });
 
+// ranchat alert
 $('.statementbox').on("click", function() {
 	setTimeout(function() {
-		alert('채팅창에 입장하시겠습니까? ???');
+		alert('채팅창에 입장하시겠습니까?');
 		window.location.href = "https://cantodayandtomorrowbedifferent.github.io/day3/ranchat/";
-	}, 5000);
+	}, 3000);
 });
 
 
